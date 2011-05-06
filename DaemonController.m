@@ -26,11 +26,16 @@ static pid_t mongod_pid()
         goto end;
 
     N = N / sizeof(struct kinfo_proc);
-    for(size_t i = 0; i < N; i++)
-        if(strcmp(info[i].kp_proc.p_comm, "mongod") == 0)
-        { pid = info[i].kp_proc.p_pid; break; }
+    for(size_t i = 0; i < N; i++) {
+        //NSLog(@"process name: %s", info[i].kp_proc.p_comm);
+        if(strcmp(info[i].kp_proc.p_comm, "java") == 0) { 
+            pid = info[i].kp_proc.p_pid;
+            break;
+        }
+    }
     end:
     NSZoneFree(NULL, info);
+    //NSLog(@"Pid is %i", pid);
     return pid;
 }
 
@@ -106,6 +111,11 @@ static inline void kqueue_watch_pid(pid_t pid, id self)
 
 -(void)stop
 {
+
+    // AJE: might be handy... from http://www.opensource.apple.com/source/DSNSLPlugins/DSNSLPlugins-115/SMB/CommandLineUtilities.cpp
+    //    (void) kill(processes[i].kp_proc.p_pid, SIGTERM);
+    //    (void) kill(processes[i].kp_proc.p_pid, SIGKILL);
+
     NSTask* task = [[NSTask alloc] init];
     task.launchPath = @"/usr/bin/env";
     // try to remove service first
@@ -168,14 +178,19 @@ static inline void kqueue_watch_pid(pid_t pid, id self)
 -(void)start
 {
     @try {
-        NSMutableArray *arrayOfArguments = [[NSMutableArray alloc] initWithObjects:@"run", nil];
+        NSMutableArray *arrayOfArguments = [[NSMutableArray alloc] initWithObjects:@"-jar", location, nil];
+        //NSMutableArray *arrayOfArguments = [[NSMutableArray alloc] initWithObjects:@"run", nil];
         [self initDaemonTask];
-        daemon_task.launchPath = location;
+        daemon_task.launchPath = @"/usr/bin/java";
+        //daemon_task.launchPath = location;
+
+        //NSLog(@"start: here now");
 
         if (arguments) {
             [arrayOfArguments addObjectsFromArray:[arguments componentsSeparatedByString:@" "]];
         }
         daemon_task.arguments = [[arrayOfArguments copy] autorelease];
+        //NSLog(@"daemon_task arguments: %@", daemon_task.arguments);
         [arrayOfArguments release];
 
         [daemon_task launch];
@@ -230,8 +245,8 @@ static inline void kqueue_watch_pid(pid_t pid, id self)
     if (![location isEqualTo:nil] && ![location isEqualToString:@""]) {
         return YES;
     }
-    if([fileManager fileExistsAtPath:@"/usr/local/bin/mongod"]) {
-        location = @"/usr/local/bin/mongod";
+    if([fileManager fileExistsAtPath:@"/Applications/Jenkins/jenkins.war"]) {
+        location = @"/Applications/Jenkins/jenkins.war";
     } else if ([fileManager fileExistsAtPath:@"/usr/bin/mongod"]) {
         location = @"/usr/bin/mongod";
     } else if ([fileManager fileExistsAtPath:@"/bin/mongod"]) {
@@ -241,8 +256,10 @@ static inline void kqueue_watch_pid(pid_t pid, id self)
     } else if ([fileManager fileExistsAtPath:MONGOD_LOCATION]) {
         location = MONGOD_LOCATION;
     } else {
+        //NSLog(@"process location: NOT FOUND");
         return NO;
     }
+    //NSLog(@"process location 2: %@", location);
     return YES;
 }
 
