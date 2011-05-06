@@ -1,8 +1,6 @@
-h1. mongoDB.prefpane
+h1. jenkins-prefpane
 
-Don't you love mongoDB. Don't you hate it literally drains your memory?
-
-Well, mongoDB prefpane is a simple shortcut to start/stop the mongoDB daemon.
+Jenkins-prefpane is a simple shortcut to start/stop the Jenkins CI process.
 
 h2. Installation
 
@@ -18,12 +16,14 @@ h2. Configuration
 As of this version it will try to get the mongod binary from popular places (/usr/local/bin/mongod, /usr/bin/mongod, /bin/mongod/, /opt/bin/mongod). If for any weird reason you have it in a differnt location, you will need to set it in DaemonController.h.
 i.e. @#define MONGOD_LOCATION @"/fruity/loops/mongod"@
 
-If you need to set extra parameters to run mongod, then edit the Arguments textbox from the pane.
+If you need to set extra parameters to run jenkins, then edit the Arguments textbox from the pane.
 
 h2. Known Issues
 
 It crashes System Preferences when re/installing the .prefpane.
 
 h2. Credits
+
+jenkins-prefpane was forked from https://github.com/ivanvc/mongodb.prefpane.
 
 DaemonController and MBSliderButton based in the ones made by Max Howell
