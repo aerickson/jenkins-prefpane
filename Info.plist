@@ -9,7 +9,7 @@
 	<key>CFBundleIconFile</key>
 	<string>mongo.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.ivanvc.${PRODUCT_NAME:identifier}</string>
+	<string>org.jenkins-ci.${PRODUCT_NAME:identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -27,7 +27,7 @@
 	<key>NSPrefPaneIconFile</key>
 	<string>mongoPref.tiff</string>
 	<key>NSPrefPaneIconLabel</key>
-	<string>mongo</string>
+	<string>jenkins</string>
 	<key>NSPrincipalClass</key>
 	<string>mongoPref</string>
 </dict>
