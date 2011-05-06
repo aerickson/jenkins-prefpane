@@ -4,6 +4,7 @@
 //
 //  Created by Max Howell http://github.com/mxcl/playdar.prefpane
 //  Modified by Iván Valdés
+//  Modified by Andrew Erickson
 //
 
 #import "DaemonController.h"
@@ -110,7 +111,7 @@ static inline void kqueue_watch_pid(pid_t pid, id self)
     // try to remove service first
     task.arguments = [NSArray arrayWithObjects:@"launchctl", 
         @"unload", 
-        [@"~/Library/LaunchAgents/org.mongodb.mongod.plist" stringByExpandingTildeInPath], 
+        [@"/Library/LaunchAgents/org.jenkins-ci.plist" stringByExpandingTildeInPath], 
         nil];
 
     [delegate performSelector:@selector(daemonStopped)];

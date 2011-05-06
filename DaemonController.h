@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 // Allows you to specify your mongod binary location, just in case you have it in a weird place
 // like /fruity/loops/mongod :)
-#define MONGOD_LOCATION @"/usr/local/bin/mongod"
+#define MONGOD_LOCATION @"/Applications/Jenkins/jenkins.war"
 
 @interface DaemonController : NSObject
 {
