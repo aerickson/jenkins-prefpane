@@ -20,6 +20,11 @@
 		2CD23D0C11BC6AA2005B6619 /* MBSliderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD23D0A11BC6AA2005B6619 /* MBSliderButton.m */; };
 		2CD23D4111BC7082005B6619 /* button_surround.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CD23D3F11BC7082005B6619 /* button_surround.png */; };
 		2CD23D4211BC7082005B6619 /* button_knob.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CD23D4011BC7082005B6619 /* button_knob.png */; };
+		4953B8801373A957009A0F54 /* headshot.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4953B87E1373A957009A0F54 /* headshot.icns */; };
+		4953B8811373A957009A0F54 /* headshot.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4953B87E1373A957009A0F54 /* headshot.icns */; };
+		4953B8851373AA0D009A0F54 /* jenkins_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4953B8841373AA0D009A0F54 /* jenkins_logo.png */; };
+		4953B8861373AA0D009A0F54 /* jenkins_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4953B8841373AA0D009A0F54 /* jenkins_logo.png */; };
+		4953B88F1373D2A9009A0F54 /* headshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 4953B88E1373D2A9009A0F54 /* headshot.png */; };
 		4956D29613739A7A00C678AB /* mongo_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCFA20370C41700C91783 /* mongo_Prefix.pch */; };
 		4956D29713739A7A00C678AB /* mongoPref.h in Headers */ = {isa = PBXBuildFile; fileRef = F506C03C013D9D7901CA16C8 /* mongoPref.h */; };
 		4956D29813739A7A00C678AB /* DaemonController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C62EDFA117425F700F27B65 /* DaemonController.h */; };
@@ -68,6 +73,9 @@
 		2CD23D3F11BC7082005B6619 /* button_surround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_surround.png; sourceTree = "<group>"; };
 		2CD23D4011BC7082005B6619 /* button_knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_knob.png; sourceTree = "<group>"; };
 		32DBCFA20370C41700C91783 /* mongo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mongo_Prefix.pch; sourceTree = "<group>"; };
+		4953B87E1373A957009A0F54 /* headshot.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = headshot.icns; sourceTree = "<group>"; };
+		4953B8841373AA0D009A0F54 /* jenkins_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jenkins_logo.png; sourceTree = "<group>"; };
+		4953B88E1373D2A9009A0F54 /* headshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headshot.png; sourceTree = "<group>"; };
 		4956D2B113739A7A00C678AB /* Jenkins.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jenkins.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D202CF70486D31800D8A456 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D202CF80486D31800D8A456 /* mongo.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mongo.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +131,9 @@
 		089C167CFE841241C02AAC07 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4953B88E1373D2A9009A0F54 /* headshot.png */,
+				4953B8841373AA0D009A0F54 /* jenkins_logo.png */,
+				4953B87E1373A957009A0F54 /* headshot.icns */,
 				2CD23D3F11BC7082005B6619 /* button_surround.png */,
 				2CD23D4011BC7082005B6619 /* button_knob.png */,
 				2C073804117618F100452AFE /* MIT-LICENSE */,
@@ -274,8 +285,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D202CE80486D31800D8A456 /* mongo */,
 				4956D29413739A7A00C678AB /* jenkins */,
+				8D202CE80486D31800D8A456 /* mongo */,
 			);
 		};
 /* End PBXProject section */
@@ -296,6 +307,9 @@
 				4956D2A313739A7A00C678AB /* README.textile in Resources */,
 				4956D2A413739A7A00C678AB /* button_surround.png in Resources */,
 				4956D2A513739A7A00C678AB /* button_knob.png in Resources */,
+				4953B8811373A957009A0F54 /* headshot.icns in Resources */,
+				4953B8861373AA0D009A0F54 /* jenkins_logo.png in Resources */,
+				4953B88F1373D2A9009A0F54 /* headshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +328,8 @@
 				2C0738071176190300452AFE /* README.textile in Resources */,
 				2CD23D4111BC7082005B6619 /* button_surround.png in Resources */,
 				2CD23D4211BC7082005B6619 /* button_knob.png in Resources */,
+				4953B8801373A957009A0F54 /* headshot.icns in Resources */,
+				4953B8851373AA0D009A0F54 /* jenkins_logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
