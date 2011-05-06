@@ -20,6 +20,26 @@
 		2CD23D0C11BC6AA2005B6619 /* MBSliderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD23D0A11BC6AA2005B6619 /* MBSliderButton.m */; };
 		2CD23D4111BC7082005B6619 /* button_surround.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CD23D3F11BC7082005B6619 /* button_surround.png */; };
 		2CD23D4211BC7082005B6619 /* button_knob.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CD23D4011BC7082005B6619 /* button_knob.png */; };
+		4956D29613739A7A00C678AB /* mongo_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCFA20370C41700C91783 /* mongo_Prefix.pch */; };
+		4956D29713739A7A00C678AB /* mongoPref.h in Headers */ = {isa = PBXBuildFile; fileRef = F506C03C013D9D7901CA16C8 /* mongoPref.h */; };
+		4956D29813739A7A00C678AB /* DaemonController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C62EDFA117425F700F27B65 /* DaemonController.h */; };
+		4956D29913739A7A00C678AB /* MBSliderButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD23D0911BC6AA2005B6619 /* MBSliderButton.h */; };
+		4956D29B13739A7A00C678AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		4956D29C13739A7A00C678AB /* mongoPref.xib in Resources */ = {isa = PBXBuildFile; fileRef = F506C042013D9D8C01CA16C8 /* mongoPref.xib */; };
+		4956D29D13739A7A00C678AB /* logo-mongodb-onwhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C62ECAC1173C84500F27B65 /* logo-mongodb-onwhite.png */; };
+		4956D29E13739A7A00C678AB /* mongo.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2C62ECB51173CD8200F27B65 /* mongo.icns */; };
+		4956D29F13739A7A00C678AB /* mongoPref.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 2C62ECBE1173CEA800F27B65 /* mongoPref.tiff */; };
+		4956D2A013739A7A00C678AB /* switcher-text-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C62ECC61173CFA500F27B65 /* switcher-text-off.png */; };
+		4956D2A113739A7A00C678AB /* switcher-text-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C62ECC81173CFA500F27B65 /* switcher-text-on.png */; };
+		4956D2A213739A7A00C678AB /* MIT-LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2C073804117618F100452AFE /* MIT-LICENSE */; };
+		4956D2A313739A7A00C678AB /* README.textile in Resources */ = {isa = PBXBuildFile; fileRef = 2C0738061176190300452AFE /* README.textile */; };
+		4956D2A413739A7A00C678AB /* button_surround.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CD23D3F11BC7082005B6619 /* button_surround.png */; };
+		4956D2A513739A7A00C678AB /* button_knob.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CD23D4011BC7082005B6619 /* button_knob.png */; };
+		4956D2A713739A7A00C678AB /* mongoPref.m in Sources */ = {isa = PBXBuildFile; fileRef = F506C03D013D9D7901CA16C8 /* mongoPref.m */; };
+		4956D2A813739A7A00C678AB /* DaemonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C62EDFB117425F700F27B65 /* DaemonController.m */; };
+		4956D2A913739A7A00C678AB /* MBSliderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD23D0A11BC6AA2005B6619 /* MBSliderButton.m */; };
+		4956D2AB13739A7A00C678AB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		4956D2AC13739A7A00C678AB /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F506C035013D953901CA16C8 /* PreferencePanes.framework */; };
 		8D202CEA0486D31800D8A456 /* mongo_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCFA20370C41700C91783 /* mongo_Prefix.pch */; };
 		8D202CEB0486D31800D8A456 /* mongoPref.h in Headers */ = {isa = PBXBuildFile; fileRef = F506C03C013D9D7901CA16C8 /* mongoPref.h */; };
 		8D202CED0486D31800D8A456 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
@@ -48,6 +68,7 @@
 		2CD23D3F11BC7082005B6619 /* button_surround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_surround.png; sourceTree = "<group>"; };
 		2CD23D4011BC7082005B6619 /* button_knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_knob.png; sourceTree = "<group>"; };
 		32DBCFA20370C41700C91783 /* mongo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mongo_Prefix.pch; sourceTree = "<group>"; };
+		4956D2B113739A7A00C678AB /* mongo copy.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mongo copy.prefPane"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D202CF70486D31800D8A456 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D202CF80486D31800D8A456 /* mongo.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mongo.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
 		F506C035013D953901CA16C8 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = /System/Library/Frameworks/PreferencePanes.framework; sourceTree = "<absolute>"; };
@@ -57,6 +78,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4956D2AA13739A7A00C678AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4956D2AB13739A7A00C678AB /* Cocoa.framework in Frameworks */,
+				4956D2AC13739A7A00C678AB /* PreferencePanes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D202CF20486D31800D8A456 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -144,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				8D202CF80486D31800D8A456 /* mongo.prefPane */,
+				4956D2B113739A7A00C678AB /* mongo copy.prefPane */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,6 +190,17 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		4956D29513739A7A00C678AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4956D29613739A7A00C678AB /* mongo_Prefix.pch in Headers */,
+				4956D29713739A7A00C678AB /* mongoPref.h in Headers */,
+				4956D29813739A7A00C678AB /* DaemonController.h in Headers */,
+				4956D29913739A7A00C678AB /* MBSliderButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D202CE90486D31800D8A456 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -173,6 +215,26 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		4956D29413739A7A00C678AB /* jenkins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4956D2AE13739A7A00C678AB /* Build configuration list for PBXNativeTarget "jenkins" */;
+			buildPhases = (
+				4956D29513739A7A00C678AB /* Headers */,
+				4956D29A13739A7A00C678AB /* Resources */,
+				4956D2A613739A7A00C678AB /* Sources */,
+				4956D2AA13739A7A00C678AB /* Frameworks */,
+				4956D2AD13739A7A00C678AB /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jenkins;
+			productInstallPath = "$(HOME)/Library/PreferencePanes";
+			productName = mongo;
+			productReference = 4956D2B113739A7A00C678AB /* mongo copy.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
 		8D202CE80486D31800D8A456 /* mongo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DBD214808BA80EA00186707 /* Build configuration list for PBXNativeTarget "mongo" */;
@@ -201,19 +263,42 @@
 			attributes = {
 				ORGANIZATIONNAME = "Iván Valdés Castillo";
 			};
-			buildConfigurationList = 1DBD214C08BA80EA00186707 /* Build configuration list for PBXProject "mongodb.prefpane" */;
+			buildConfigurationList = 1DBD214C08BA80EA00186707 /* Build configuration list for PBXProject "jenkins-prefpane" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 089C166AFE841209C02AAC07 /* mongo */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				8D202CE80486D31800D8A456 /* mongo */,
+				4956D29413739A7A00C678AB /* jenkins */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4956D29A13739A7A00C678AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4956D29B13739A7A00C678AB /* InfoPlist.strings in Resources */,
+				4956D29C13739A7A00C678AB /* mongoPref.xib in Resources */,
+				4956D29D13739A7A00C678AB /* logo-mongodb-onwhite.png in Resources */,
+				4956D29E13739A7A00C678AB /* mongo.icns in Resources */,
+				4956D29F13739A7A00C678AB /* mongoPref.tiff in Resources */,
+				4956D2A013739A7A00C678AB /* switcher-text-off.png in Resources */,
+				4956D2A113739A7A00C678AB /* switcher-text-on.png in Resources */,
+				4956D2A213739A7A00C678AB /* MIT-LICENSE in Resources */,
+				4956D2A313739A7A00C678AB /* README.textile in Resources */,
+				4956D2A413739A7A00C678AB /* button_surround.png in Resources */,
+				4956D2A513739A7A00C678AB /* button_knob.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D202CEC0486D31800D8A456 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -235,6 +320,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXRezBuildPhase section */
+		4956D2AD13739A7A00C678AB /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D202CF50486D31800D8A456 /* Rez */ = {
 			isa = PBXRezBuildPhase;
 			buildActionMask = 2147483647;
@@ -245,6 +337,16 @@
 /* End PBXRezBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4956D2A613739A7A00C678AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4956D2A713739A7A00C678AB /* mongoPref.m in Sources */,
+				4956D2A813739A7A00C678AB /* DaemonController.m in Sources */,
+				4956D2A913739A7A00C678AB /* MBSliderButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D202CF00486D31800D8A456 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -346,6 +448,46 @@
 			};
 			name = Release;
 		};
+		4956D2AF13739A7A00C678AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(SRCROOT)/../CocoaMondoKit\\ 1.1\\\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = mongo_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = "mongo copy";
+				WRAPPER_EXTENSION = prefPane;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		4956D2B013739A7A00C678AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(SRCROOT)/../CocoaMondoKit\\ 1.1\\\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = mongo_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = "mongo copy";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -358,11 +500,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DBD214C08BA80EA00186707 /* Build configuration list for PBXProject "mongodb.prefpane" */ = {
+		1DBD214C08BA80EA00186707 /* Build configuration list for PBXProject "jenkins-prefpane" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DBD214D08BA80EA00186707 /* Debug */,
 				1DBD214E08BA80EA00186707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4956D2AE13739A7A00C678AB /* Build configuration list for PBXNativeTarget "jenkins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4956D2AF13739A7A00C678AB /* Debug */,
+				4956D2B013739A7A00C678AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
