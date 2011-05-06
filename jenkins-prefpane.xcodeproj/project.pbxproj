@@ -68,7 +68,7 @@
 		2CD23D3F11BC7082005B6619 /* button_surround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_surround.png; sourceTree = "<group>"; };
 		2CD23D4011BC7082005B6619 /* button_knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_knob.png; sourceTree = "<group>"; };
 		32DBCFA20370C41700C91783 /* mongo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mongo_Prefix.pch; sourceTree = "<group>"; };
-		4956D2B113739A7A00C678AB /* mongo copy.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mongo copy.prefPane"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4956D2B113739A7A00C678AB /* jenkins.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jenkins.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D202CF70486D31800D8A456 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D202CF80486D31800D8A456 /* mongo.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mongo.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
 		F506C035013D953901CA16C8 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = /System/Library/Frameworks/PreferencePanes.framework; sourceTree = "<absolute>"; };
@@ -174,7 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				8D202CF80486D31800D8A456 /* mongo.prefPane */,
-				4956D2B113739A7A00C678AB /* mongo copy.prefPane */,
+				4956D2B113739A7A00C678AB /* jenkins.prefPane */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -232,7 +232,7 @@
 			name = jenkins;
 			productInstallPath = "$(HOME)/Library/PreferencePanes";
 			productName = mongo;
-			productReference = 4956D2B113739A7A00C678AB /* mongo copy.prefPane */;
+			productReference = 4956D2B113739A7A00C678AB /* jenkins.prefPane */;
 			productType = "com.apple.product-type.bundle";
 		};
 		8D202CE80486D31800D8A456 /* mongo */ = {
@@ -464,7 +464,7 @@
 				GCC_PREFIX_HEADER = mongo_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
-				PRODUCT_NAME = "mongo copy";
+				PRODUCT_NAME = jenkins;
 				WRAPPER_EXTENSION = prefPane;
 				ZERO_LINK = YES;
 			};
@@ -483,7 +483,7 @@
 				GCC_PREFIX_HEADER = mongo_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
-				PRODUCT_NAME = "mongo copy";
+				PRODUCT_NAME = jenkins;
 				WRAPPER_EXTENSION = prefPane;
 			};
 			name = Release;
