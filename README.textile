@@ -18,6 +18,10 @@ i.e. @#define MONGOD_LOCATION @"/fruity/loops/mongod"@
 
 If you need to set extra parameters to run jenkins, then edit the Arguments textbox from the pane.
 
+h2. Todo
+
+Make the prefpane use the Launchd plist provided by the OS X package's postinstall.
+
 h2. Known Issues
 
 It crashes System Preferences when re/installing the .prefpane.
